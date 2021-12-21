@@ -12,31 +12,31 @@ Dialog::Dialog(QWidget *parent) :
 
 
      QStringList header;
-     header << "Name" << "Surname" << "Age" << "Gender";
+     header << "Name" << "Last Name" << "Age" << "Gender";
      data << header;
 
-     QStringList mahmut;
-     mahmut << "Mahmutawzesrxcfybunımoöpmonıbvycvyubnıöpmobuvybtbunıokmnbuvbytbınmköpobvycvybnmköpobvyctxvbhnjkmobuvycxrcvbnkmö" << "Tuncer" << "55" << "Male";
+     QStringList person1;
+     mahmut << "firstName1" << "lastName1" << "age1" << "gender1";
      data << mahmut;
 
      QStringList umay;
-     umay << "Umay" << "Sahan" << "23" << "Female";
+     umay << "firstName2" << "lastName2" << "age2" << "gender2";
      data << umay;
 
      QStringList orhun;
-     orhun << "Orhun" << "Kilinc" << "22" << "Male";
+     orhun << "firstName3" << "lastName3" << "age3" << "gender3";
      data << orhun;
 
      QStringList songul;
-     songul << "Songul" << "Sahan" << "53" << "Female";
+     songul << "firstName4" << "lastName4" << "age4" << "gender4";
      data << songul;
 
      QStringList gokberk;
-     gokberk << "Gokberk" << "Ozcan" << "22" << "Male";
+     gokberk << "firstName5" << "lastName5" << "age5" << "gender5";
      data << gokberk;
 
      QStringList goksu;
-     goksu << "Goksu" << "Karaca " << "21" << "Female";
+     goksu << "firstName6" << "lastName6 " << "age6" << "gender6";
      data << goksu;
 }
 
